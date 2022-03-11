@@ -45,3 +45,42 @@ body{
 .last{
     grid-column: 1;
 }
+.card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-self: center;
+    border: .5px lightgrey solid;
+    border-radius: 3%;
+    margin: 10px;
+    height: 100px;
+    width: 400px;
+    max-height: 100px;
+    max-width: 400px;
+}
+.name{
+    font-size: .75rem;
+    margin-bottom: 3px;
+}
+.email{
+    font-size: .75rem;
+    margin-bottom: 3px;
+}
+.address{
+    font-size: .75rem;
+}
+.avatar{
+    grid-column: 1;
+    border-radius: 50%;
+    width:75px;
+    height: 75px;
+    align-self: center;
+    justify-self: center;
+}
+.text-container{
+    grid-column: 2;
+    align-self: center;
+}
+header{
+    font-size: .5rem;
+    margin: 20px 10px;
+}
